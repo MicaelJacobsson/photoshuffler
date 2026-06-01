@@ -17,4 +17,4 @@ rm -f "$PLAYLIST.tmp"
 echo "Playlist: $(wc -l < "$PLAYLIST") photos"
 
 # Launch feh
-exec feh --fontpath /usr/share/fonts/truetype/dejavu     --fullscreen --auto-zoom --hide-pointer     --slideshow-delay "$SLIDE_DELAY"     --font "DejaVuSans/48"     --info "$DIR/photo-info.sh %F"     --filelist "$PLAYLIST"
+exec feh --fontpath /usr/share/fonts/truetype/dejavu     --fullscreen --auto-zoom --hide-pointer     --slideshow-delay "$SLIDE_DELAY"     --font "DejaVuSans/36"     --info "$DIR/photo-info.sh %F"     --filelist "$PLAYLIST"
