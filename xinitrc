@@ -1,7 +1,9 @@
 #!/bin/bash
-# Disable screen blanking and power management
+# Disable all screen blanking and power management
 xset s off
-xset -dpms
 xset s noblank
+xset s 0 0
+xset dpms 0 0 0
+xset -dpms
 
 exec /home/ubuntu/photoshuffler/start.sh
